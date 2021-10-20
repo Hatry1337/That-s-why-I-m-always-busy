@@ -2,7 +2,8 @@
 Это репозиторий с подробным описанием моих проектов. 
 
 TODO:
-- RainbowBOT + Dev
+- [RainbowBOT](/RainbowBOT/RainbowBOT.md)
+- RainbowBOT Dev
 - RainbowBOT API
 - HourBoost
 - BAneks API
