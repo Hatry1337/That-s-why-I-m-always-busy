@@ -393,3 +393,44 @@ RainbowBOT написан на JavaScript и использует Node.js, Disco
 
 ![Screenshot_20211021_005945](https://user-images.githubusercontent.com/53402621/138178492-c48984c5-ac4d-4cb2-bc42-df630895f7c3.png)
 
+
+### <a name="Commands-Randcat"></a> !randcat
+Случайная фотография случайного котика.
+
+*Доступ: `Все`*
+
+*Аргументы: `Нет`*
+
+*Скриншот:*
+
+![Screenshot_20211021_010804](https://user-images.githubusercontent.com/53402621/138179318-b7cb8647-68b0-4d68-8ea0-87d88214f8bb.png)
+
+
+### <a name="Commands-8Ball"></a> !8ball \<question>
+Магический шар, который ответит на любой вопрос. (Ответы да/нет)
+
+*\* Будьте осторожны, ответы никак не зависят от вопроса, они случайты, так-что, не принимайте с его помощью важных решений.* 
+
+*Доступ: `Все`*
+
+*Аргументы: `Нет`*
+
+*Скриншот:*
+
+![Screenshot_20211021_011443](https://user-images.githubusercontent.com/53402621/138180013-dd9dba53-a4bd-4c4f-af9b-ac4f1332ad09.png)
+
+
+### <a name="Commands-OsuInfo"></a> !osuinfo \<arg1> \<arg2>
+Профиль игрока osu!
+
+*Доступ: `Все`*
+
+*Аргументы:*
+| Аргумент | Тип | Обязательный | Описание | Пример |
+| ------ | ------ | ------ | ------ | ------ |
+| `arg1` | `Ник` or `Режим` | `+` | Ник игрока osu!osu, либо игровой режим: `osu`, `mania`, `taiko`, `catch` | osu |
+| `arg2` | `Ник` | `-` | Если в `arg1` был указан режим, то в этом аргументе должен быть ник игрока. | HatryYT |
+
+*Скриншот:*
+
+![Screenshot_20211021_013232](https://user-images.githubusercontent.com/53402621/138181702-6927e116-fe85-434b-a8f1-181fe3e94c0a.png)
