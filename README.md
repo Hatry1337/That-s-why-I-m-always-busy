@@ -3,9 +3,9 @@
 
 Done:
 - [RainbowBOT](/RainbowBOT/RainbowBOT.md)
+- [RainbowBOT Dev](/RainbowBOT-Dev/RainbowBOT-DEV.md)
 
 TODO:
-- RainbowBOT Dev
 - RainbowBOT API
 - HourBoost
 - BAneks API
