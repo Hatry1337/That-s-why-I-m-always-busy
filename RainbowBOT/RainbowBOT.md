@@ -52,7 +52,7 @@
 
 
 ## <a name="About"></a> О боте 
-В данный момент разработка в главной ветке не ведётся, выходят лишь критические исправления. Основные силы брошены на портирование функционала на новую базу ([RainbowBOT DEV](https://github.com/Hatry1337/That-s-why-I-m-always-busy/RainbowBOT-DEV.md)).
+В данный момент разработка в главной ветке не ведётся, выходят лишь критические исправления. Основные силы брошены на портирование функционала на новую базу ([RainbowBOT DEV](/RainbowBOT-Dev/RainbowBOT-DEV.md)).
 RainbowBOT написан на JavaScript и использует Node.js, Discord.js, MySQL. Пригласить бота на свой сервер можно по ссылке https://rainbowbot.xyz/invite
 
 ## <a name="Commands"></a> Команды 
@@ -493,7 +493,7 @@ ASCII корова (и не только) говорит текст из `arg1`
 
 
 ### <a name="Commands-Anecdot"></a> !anecdot \<type>
-Какие-то странные анекдоты. Лучше юзайте анекдоты из [RainbowBOT Dev](/RainbowBOT-Dev/RainbowBOTDev.md), [TGAnekBOT](/TGAnekBOT/TGAnekBOT.md) или напрямую через [RainbowBOT SSAPI](/RainbowBOT-SSAPI/RainbowBOTSSAPI.md)....
+Какие-то странные анекдоты. Лучше юзайте анекдоты из [RainbowBOT DEV](/RainbowBOT-Dev/RainbowBOT-DEV.md), [TGAnekBOT](/TGAnekBOT/TGAnekBOT.md) или напрямую через [RainbowBOT SSAPI](/RainbowBOT-SSAPI/RainbowBOTSSAPI.md)....
 
 *Доступ: `Все`*
 
