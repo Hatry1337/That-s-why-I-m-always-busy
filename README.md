@@ -4,11 +4,13 @@
 Done:
 - [RainbowBOT](/RainbowBOT/RainbowBOT.md)
 - [RainbowBOT Dev](/RainbowBOT-Dev/RainbowBOT-DEV.md)
+- [RainbowBOT API](/RainbowBOTSSAPI/RBOTSSAPI.md#RBOTAPI)
+- [BAneks API](/RainbowBOTSSAPI/RBOTSSAPI.md#RBOTAPI)
+
+
 
 TODO:
-- RainbowBOT API
 - HourBoost
-- BAneks API
 - TGAnekBOT
 - VanillaWaker
 - SmartShit
