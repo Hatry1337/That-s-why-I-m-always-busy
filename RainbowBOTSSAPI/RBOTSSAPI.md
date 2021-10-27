@@ -27,11 +27,11 @@ RainbowBOT Server Side API - Открытый интерфейс для прям
 
 **BaseURL** - `api.rainbowbot.xyz/bot`
 
-### <a name="RBOTAPI-stats"></a> [GET] /stats
+### <a name="RBOTAPI-stats"></a> [GET] `/stats`
 Общая статистическая информация о боте.
 
 *Структура ответа:*
-```json
+```js
 {
    "userscount"   : number,
    "msgcount"     : number,
@@ -56,11 +56,11 @@ RainbowBOT Server Side API - Открытый интерфейс для прям
 | `botping` | Задержка сокета взаимодействия бота с Discord API. |
 
 
-### <a name="RBOTAPI-userinfo"></a> [GET] /userinfo/:DiscordID
+### <a name="RBOTAPI-userinfo"></a> [GET] `/userinfo/:DiscordID`
 Информация о пользователе по `DiscordID`.
 
 *Структура ответа:*
-```json
+```js
 {
     "Username" : string,
     "Group"    : string,
@@ -82,11 +82,11 @@ RainbowBOT Server Side API - Открытый интерфейс для прям
 | `Lang` | Язык пользователя (ru, en). |
 
 
-### <a name="RBOTAPI-tops-servers-byactivity"></a> [GET] /tops/servers/byactivity
+### <a name="RBOTAPI-tops-servers-byactivity"></a> [GET] `/tops/servers/byactivity`
 Топ 100 серверов по количеству сообщений (команд).
 
 *Структура ответа:*
-```json
+```js
 [
     {
         "server"   : string,
@@ -100,11 +100,11 @@ RainbowBOT Server Side API - Открытый интерфейс для прям
 | `messages` | Количество сообщений на сервере. |
 
 
-### <a name="RBOTAPI-tops-users-byactivity"></a> [GET] /tops/servers/byactivity
+### <a name="RBOTAPI-tops-users-byactivity"></a> [GET] `/tops/servers/byactivity`
 Топ 100 пользователей по количеству сообщений (команд).
 
 *Структура ответа:*
-```json
+```js
 [
     {
         "username" : string,
@@ -118,11 +118,11 @@ RainbowBOT Server Side API - Открытый интерфейс для прям
 | `messages` | Количество сообщений на сервере. |
 
 
-### <a name="RBOTAPI-tops-users-bylvl"></a> [GET] /tops/users/bylvl
+### <a name="RBOTAPI-tops-users-bylvl"></a> [GET] `/tops/users/bylvl`
 Топ 100 пользователей по уровню.
 
 *Структура ответа:*
-```json
+```js
 [
     {
         "username" : string,
@@ -138,11 +138,11 @@ RainbowBOT Server Side API - Открытый интерфейс для прям
 | `lvl` | Уровень пользователя. |
 
 
-### <a name="RBOTAPI-tops-users-bypoints"></a> [GET] /tops/users/bypoints
+### <a name="RBOTAPI-tops-users-bypoints"></a> [GET] `/tops/users/bypoints`
 Топ 100 пользователей по поинтам.
 
 *Структура ответа:*
-```json
+```js
 [
     {
         "username" : string,
@@ -163,11 +163,11 @@ RainbowBOT Server Side API - Открытый интерфейс для прям
 
 **BaseURL** - `api.rainbowbot.xyz/baneks`
 
-### <a name="BAneks-random"></a> [GET] /random
+### <a name="BAneks-random"></a> [GET] `/random`
 Случайный анекдот категории Б.
 
 *Структура ответа:*
-```json
+```js
 {
    "status" : number,
    "id"     : number,
@@ -190,11 +190,11 @@ RainbowBOT Server Side API - Открытый интерфейс для прям
 | `tags` | Массив тегов анекдота. |
 
 
-### <a name="BAneks-tag"></a> [GET] /tag/:tag
+### <a name="BAneks-tag"></a> [GET] `/tag/:tag`
 Случайный анекдот категории Б с тегом `tag`.
 
 *Структура ответа:*
-```json
+```js
 {
    "status" : number,
    "id"     : number,
@@ -217,11 +217,11 @@ RainbowBOT Server Side API - Открытый интерфейс для прям
 | `tags` | Массив тегов анекдота. |
 
 
-### <a name="BAneks-id"></a> [GET] /id/:id
+### <a name="BAneks-id"></a> [GET] `/id/:id`
 Анекдот категории Б с идентификатором `id`.
 
 *Структура ответа:*
-```json
+```js
 {
    "status" : number,
    "id"     : number,
@@ -244,11 +244,11 @@ RainbowBOT Server Side API - Открытый интерфейс для прям
 | `tags` | Массив тегов анекдота. |
 
 
-### <a name="BAneks-tags"></a> [GET] /tags
+### <a name="BAneks-tags"></a> [GET] `/tags`
 Список всех действительных тегов.
 
 *Структура ответа:*
-```json
+```js
 {
    "status" : number,
    "tags"   : string[]
